@@ -12,7 +12,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "fnlb": "latest",
-    "dotenv": "^17.0.0"
+    "dotenv": "^17.0.0",
+    "express": "^4.19.2",
+    "fnlb": "latest"
   }
 }
