@@ -1,0 +1,19 @@
+{
+	"name": "fnlb-selfhosted",
+	"version": "1.0.0",
+	"type": "module",
+	"author": "FNLB",
+	"private": true,
+	"main": "index.js",
+	"homepage": "https://fnlb.net",
+	"description": "Easily run your own bot using FNLB, a powerful and scalable system for managing Fortnite bots.",
+	"license": "ISC",
+	"scripts": {
+		"start": "node index.js",
+		"start:bun": "bun run index.js"
+	},
+	"dependencies": {
+		"fnlb": "latest",
+		"dotenv": "^17.0.0"
+	}
+}
